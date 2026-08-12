@@ -49,9 +49,7 @@ seções/conteúdo deste HTML se aproveita quase 1:1.
 index.html        # todo o conteúdo e marcação semântica da página
 css/style.css      # estilos (design tokens em :root, paleta escura + azul)
 js/main.js         # menu mobile + ano dinâmico no rodapé (única lógica JS)
-favicon.png        # favicon (aba do navegador)
-icon.png           # marca (usada no header/rodapé e apple-touch-icon)
-nome.png           # logo com nome por extenso (usada como imagem de Open Graph)
+icon.png           # única imagem de marca: favicon, logo do header/rodapé e imagem de Open Graph
 robots.txt
 sitemap.xml
 ```
@@ -110,10 +108,11 @@ Qualquer host de arquivo estático funciona. Sugestão mais simples:
   Quando tiver depoimentos reais, é só substituir os placeholders e tirar
   do comentário. Nenhum depoimento, estatística ou "número de clientes" foi
   inventado.
-- **Imagem de Open Graph**: por ora usando `nome.png` (o logo com nome por
-  extenso) como preview ao compartilhar o link em WhatsApp/redes sociais.
-  Funciona, mas não tem a proporção ideal de OG (1200×630) — vale gerar uma
-  arte dedicada nesse formato quando sobrar tempo.
+- **Imagem de Open Graph**: por ora usando `icon.png` (o mesmo ícone do
+  favicon/logo) como preview ao compartilhar o link em WhatsApp/redes
+  sociais. Funciona, mas é quadrado e não tem a proporção ideal de OG
+  (1200×630) — vale gerar uma arte dedicada nesse formato quando sobrar
+  tempo.
 - **Contato**: WhatsApp `(35) 99862-6931` e e-mail
   `contato@chronussolutions.com.br` (confirmado com você — o texto original
   tinha um typo faltando o "h" do domínio).
