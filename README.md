@@ -76,6 +76,17 @@ Qualquer host de arquivo estático funciona. Sugestão mais simples:
 
 ## Pendências antes de publicar
 
+- **Add-on "Lembrete de agendamento por WhatsApp" (R$49/mês, seção
+  `#planos`)**: publicado no ar por decisão sua, mesmo o recurso ainda
+  estando em fase final de implementação no Chronus ERP de verdade — a
+  justificativa foi que o link do site ainda não foi compartilhado com
+  ninguém de fora. **Antes de divulgar o link publicamente, confirme que o
+  envio automático de lembrete já está funcionando em produção.** O preço
+  (R$49/mês, até 300 lembretes, excedente R$0,25/mensagem) é estimativa
+  baseada no custo de mensagem Utility da Meta Cloud API (~R$0,06–0,09/msg
+  em 2026) — ajuste depois de fechar com um provedor (Meta direta, Twilio,
+  Zenvia etc.), já que cada um tem markup e mensalidade de plataforma
+  diferentes.
 - **Preços (seção `#planos`)**: os valores mostrados (R$129/R$249 no ERP,
   R$99/R$199 no Lex, mais os tiers "sob consulta") são uma **estimativa de
   mercado**, montada comparando com concorrentes diretos (iClinic, Feegow,
